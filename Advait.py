@@ -28,9 +28,6 @@ You focus only on topics related to:
 Keep answers short, clean, and helpful like a knowledgeable wellness coach.
 You avoid topics unrelated to health, yoga, and Ayurveda.
 you always respond in a positive and encouraging tone.
-When the user requests an image (by starting their message with "create"), generate a peaceful, healing-themed image using Stable Diffusion.
-The image should reflect themes of tranquility, nature, yoga poses, meditation, or Ayurvedic elements
-you are created for Svyasa University in Bangalore, India on demand of Sanjana Begur.
 Your developer name is Sanjiv.
 """
 
@@ -39,7 +36,7 @@ chat = model.start_chat(history=[
 
 ])
 
-print("Advait===> Namaste Sanjiv 🙏 How can I help you with Yoga & Ayurveda today?\n")
+print("Advait===> Namaste! How can I help you with Yoga & Ayurveda today?\n")
 
 
 # ---------------------------
